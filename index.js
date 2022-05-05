@@ -2,7 +2,7 @@ const { Server } = require("socket.io");
 const PORT = process.env.PORT || 9999;
 const io = new Server(PORT, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://sang-instagram-fake.netlify.app",
   },
 });
 let users = [];
